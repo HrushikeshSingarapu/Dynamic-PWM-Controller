@@ -64,3 +64,23 @@ Simulation confirms correct PWM behavior without output glitches.
 
 ## 📁 Repository Structure
 
+## 📁 Repository Structure
+
+- **rtl/** – RTL design modules (PWM core, register manager, top module)  
+- **verification/** – Testbenches for functional validation  
+- **docs/** – Architecture notes and documentation  
+
+
+---
+
+## 🚀 Future Improvements
+- Multi-channel PWM extension  
+- Dead-time insertion for motor control  
+- Bus interface (APB/AHB) for SoC integration  
+- FPGA synthesis and timing analysis  
+
+---
+
+## 👨‍💻 Author
+Hrushikesh Singarapu  
+ECE Student | RTL Design | Embedded Systems | VLSI Enthusiast
