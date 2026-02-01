@@ -1,0 +1,17 @@
+Dynamic PWM Controller Architecture Notes
+
+The design supports runtime updates of PWM duty cycle and frequency
+without producing output glitches.
+
+Shadow registers temporarily hold new values.
+Updates are committed only at counter rollover, ensuring waveform stability.
+
+Modules:
+1. pwm_core — Generates PWM waveform
+2. register_manager — Manages safe parameter updates
+3. top — Integrates system
+
+Applications:
+- Motor control
+- Power converters
+- Digital control systems
